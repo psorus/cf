@@ -1,0 +1,21 @@
+Contains the code used to generate our paper.
+According to the conference rules, we did not use any external links.
+Because of this, we had to downscale our datasets drastically, which is why the datasets in datas/ only contain 5 samples each, instead of >1000.
+
+
+The most important code is found in main.py, which can be called to train a specific model and loss task.
+These tasks are defined in the tasks.py file, which can be executed to list all available tasks.
+The models are defined in the basemodel.py file, and the loss functions are defined in the losses.py file.
+
+After training, models are evaluated using calc_accuracy from basemodel.py and metrics from collapse.py. The results are stored under results in the json format.
+
+For the final ensemble experiments, grow.py and ensemble.py are used (to combine multiple model representations, and to evaluate parts of this bigger representation).
+
+Finally, this code contains multiple plotting scripts (plot_*), each creating a different plot used in the paper.
+
+Other codes are only used for small very specific changes or to ignore RAM limitations.
+
+
+
+
+
