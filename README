@@ -1,5 +1,5 @@
 Contains the code used to generate our paper.
-According to the conference rules, we did not use any external links.
+To preserve anonymity, we did not use any external links.
 Because of this, we had to downscale our datasets drastically, which is why the datasets in datas/ only contain 5 samples each, instead of >1000.
 
 
