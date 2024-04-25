@@ -1,6 +1,5 @@
-Contains the code used to generate our paper.
-To preserve anonymity, we did not use any external links.
-Because of this, we had to downscale our datasets drastically, which is why the datasets in datas/ only contain 5 samples each, instead of >1000.
+Contains the code used to generate our paper "The Phenomenon of Correlated Representations in Contrastive Learning".
+To limit the size, we downscaled our datasets, thus the datasets in datas/ only contain 5 samples each, instead of >1000.
 
 
 The most important code is found in main.py, which can be called to train a specific model and loss task.
